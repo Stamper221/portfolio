@@ -44,7 +44,7 @@ def custom_css():
         }
         .section {
             padding: 40px 0;
-            margin-top: 300px;
+            margin-top: 220px;
         }
         .nav-trigger {
             position: fixed;
