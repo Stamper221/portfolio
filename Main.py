@@ -122,7 +122,7 @@ def who_am_i():
     with col1:
         st.write("""
         As an aspiring cybersecurity enthusiast completing an Associate's degree in Cybersecurity (August 2024), 
-        I offer a robust skill set enhanced by Security+, CCNA, and Google cybersecurity certificates. My expertise
+        I offer a robust skill set enhanced by Security+, CySA+, CSAP, CCNA, and Google cybersecurity certificates. My expertise
          encompasses critical security tools including Wireshark, Nmap, Burpsuite, Active Directory, Entra ID, and 
          Splunk. complemented by experience in Python, Bash, and PowerShell scripting. 
          With a proven track record of supporting multiple 
@@ -207,15 +207,12 @@ def experience():
         lottie_scnd = load_lottiefile("lot/second.json")
         st_lottie(lottie_scnd, height=500, width=300, )
 
-    st.subheader("Help Desk Analyst | Alkozai Transit LLC")
+    st.subheader("Security Specialist | Alkozai Transit LLC")
     st.write("June 2021 – June 2022")
     st.write("""
-    - Provided Tier 1 and Tier 2 Technical Assistance.
-    - Maintained documentation and SOPs, ensuring they were up-to-date with the latest security practices.
-    - Documented calls, created tickets, and provided ticket numbers for reference using ServiceNow.
-    - Troubleshot and repaired hardware and network issues, ensuring secure configurations were maintained.
-    - Performed specific hardware and software maintenance, such as upgrades, virus scans, and system migrations.
-    - Installed, configured, and updated end-user desktop and laptop software, ensuring all security patches were applied.
+    - Managed and maintained CCTV and NVR systems(KeepTruckin), ensuring optimal surveillance coverage and video retention on Drivers for compliance and security purposes.
+    - Implemented and administered physical access control systems, enhancing overall facility security and managing user permissions.
+    - Conducted routine system maintenance and updates, improving overall system stability.
     - Implemented and maintained security measures to protect against potential cyber threats during software installations and updates.
     """)
 
@@ -314,14 +311,17 @@ def certifications():
     st_lottie(lottie_6, height=300)
     st.header("Certifications and Awards")
     cert_list = [
-        ("Connect and Protect: Networks and Network Security", "Google", "February 2024", "CKXU6R3HDL82"),
-        ("Tools of the Trade: Linux and SQL", "Google", "February 2024", "FRCREY2XC9NQ"),
+        ("CompTIA CSAP", "CompTIA", "September 2024", "COMP001022188345"),
+        ("CompTIA CySA+ ce", "CompTIA", "September 2024", "3JSNTQ86HJFQ1K98"),
+        ("CompTIA Sec+ ce", "CompTIA", "July 2023", "KHTS9LKQ3J4QQ59Z"),
         ("CCNA 200-301", "Cisco", "February 2024", "CSCO14536882"),
+        ("Connect and Protect: Networks and Network Security", "Google", "February 2024", "CKXU6R3HDL82"),
+        ("Assets, Threats, and Vulnerabilities", "Google", "September 2024", "9VVYX5KGO65I"),
+        ("Tools of the Trade: Linux and SQL", "Google", "February 2024", "FRCREY2XC9NQ"),
         ("Certificate of Appreciation", "Bell TechLogix", "January 2024", "BTL"),
         ("Bell Ringer", "Bell TechLogix", "September 2023", "BTL"),
         ("Play It Safe: Manage Security Risks", "Google", "September 2023", "JMK9D82XJ5F9"),
-        ("Foundations of Cybersecurity", "Google", "August 2023", "584QTHP6NAMB"),
-        ("CompTIA Sec+", "CompTIA", "July 2023", "COMP001022188345")
+        ("Foundations of Cybersecurity", "Google", "August 2023", "584QTHP6NAMB")
     ]
 
     for cert, issuer, date, creds in cert_list:
